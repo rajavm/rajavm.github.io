@@ -3,63 +3,42 @@ using namespace std;
 int main(){
 string a,b,c,d;
 cout<<"Enter two names"<<endl;
-cin>>a>>b;
-c=a;
-d=b;
+cin>>a>>b;//input strings 
+c=a;//backing up name1
+d=b;//backing up name2
 //strcpy(d,b);
 int la,lb,bk=0,tot=0;
-la=(int)a.length();
-lb=(int)b.length();
+la=(int)a.length();//length of string1
+lb=(int)b.length();//length of string2
 for(int i=0;i<la;i++){
 for(int j=0;j<lb;j++){
 	//cout<<a[i]<<b[j]<<"  \n";
-if(a[i]==b[j]){
+if(a[i]==b[j]){//check for same character
 	//cout<<a[i]<<b[j]<<"equal block\n";
-b[j]='*';
-a[i]='@';
+b[j]='*';//mark as checked
+a[i]='@';//optional
 	//cout<<a[i]<<b[j]<<"after change block\n";
-bk+=2;
+bk+=2;//name1,name2 has same character,so two in number
 break;
 }
 }
 }
-tot=la+lb-bk;
+tot=la+lb-bk;//unstruck characters
 	//cout<<"total is "<<tot<<endl;
-char arr[]="flames0";
-int arr_size=6;
-	//cout<<arr<<endl;
-/*for(int i=0;i<6 && arr_size>0;i++){
+char arr[]="flames0";//0 to mark the end
+int arr_size=6;//size of flames 
+
 int rem=tot;
-if(tot>arr_size){
-
-
- rem=tot%arr_size;
-}
-int j=rem;
-cout<<"j is "<<j<<endl;
-//if(!j)
-//j=1;
-while(j<=arr_size && j>0 && arr[j]!='0'){
-arr[j-1]='*';
-
-j=j+j;;
-}
-cout<<arr<<endl;
---arr_size;
-
-}
-*/
-int rem=tot;
-int  key=0;
+int  key=0;//to mark the start of array from which the strike should start
 for(int i=0;i<5 && arr_size>0;i++){
  rem=tot%arr_size;
 
-	//key=rem;
+	
 int bc=(key+rem)%arr_size;
-if(!bc){
-key=0;
+if(!bc){//if bc ==0 ,then the previous character(the last character of flames) should be striked
+key=0;//the next character should be first character of flames
 arr[arr_size-1]='0';
-arr_size--;
+arr_size--;//decrement the size
 }else{
 key=bc-1;
 for(int j=bc-1;j<arr_size;j++){
