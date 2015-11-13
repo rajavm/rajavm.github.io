@@ -5,8 +5,8 @@ permalink:           pretty
 #relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
+title:               Raja
+tagline:             Version 0.1
 url:                 https://rajavm.github.io/
 paginate:            1
 baseurl:             ""
