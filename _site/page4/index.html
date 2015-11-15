@@ -31,6 +31,16 @@
 
 
   <body  class="layout-reverse theme-base-09">
+<!-- for fb (div,script) -->
+  	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
     
 
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
@@ -105,6 +115,7 @@
       </div>
 
       <div class="container content">
+
         <div class="posts">
   
   <div class="post">
@@ -116,13 +127,15 @@
 
     <span class="post-date">31 Dec 2013</span>
 
-    [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+    <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
 
-  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+<blockquote>
+  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
+</blockquote>
 
-It's an immensely useful tool and one we encourage you to use here with Lanyon.
+<p>It’s an immensely useful tool and one we encourage you to use here with Lanyon.</p>
 
-Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
+<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
 
   </div>
   
@@ -140,8 +153,45 @@ Find out more by [visiting the project on GitHub](https://github.com/mojombo/jek
 </div>
 
 
+
+  <!-- twitter share -->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="raja_vm">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <!-- gogole plus share -->
+		<script src="https://apis.google.com/js/platform.js" async defer ></script>
+			<div class="g-plus" data-action="share" data-annotation="none" ></div>
+ <!-- fb share -->
+		<div class="fb-share-button" data-href="https://rajavm.github.io//page4/" data-layout="button_count" style="position: relative; top: -8px; "></div>
+
+
+
       </div>
     </div>
+
+    <!-- discus thread -->
+	<div id="disqus_thread"></div>
+	<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+
+	s.src = '//rajavm.disqus.com/embed.js';
+
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 

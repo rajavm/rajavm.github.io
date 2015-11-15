@@ -31,6 +31,16 @@
 
 
   <body  class="layout-reverse theme-base-09">
+<!-- for fb (div,script) -->
+  	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
     
 
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
@@ -105,6 +115,7 @@
       </div>
 
       <div class="container content">
+
         <div class="posts">
   
   <div class="post">
@@ -116,39 +127,43 @@
 
     <span class="post-date">02 Jan 2014</span>
 
-    Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+    <p>Lanyon is an unassuming <a href="http://jekyllrb.com">Jekyll</a> theme that places content first by tucking away navigation in a hidden drawer. It’s based on <a href="http://getpoole.com">Poole</a>, the Jekyll butler.</p>
 
-### Built on Poole
+<h3 id="built-on-poole">Built on Poole</h3>
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
+<p>Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by <a href="https://twitter.com/mdo">@mdo</a>. Poole, and every theme built on it (like Lanyon here) includes the following:</p>
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+<ul>
+  <li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/atom.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
+  <li>Mobile friendly design and development</li>
+  <li>Easily scalable text and component sizing with <code>rem</code> units in the CSS</li>
+  <li>Support for a wide gamut of HTML elements</li>
+  <li>Related posts (time-based, because Jekyll) below each post</li>
+  <li>Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)</li>
+</ul>
 
-### Lanyon features
+<h3 id="lanyon-features">Lanyon features</h3>
 
-In addition to the features of Poole, Lanyon adds the following:
+<p>In addition to the features of Poole, Lanyon adds the following:</p>
 
-* Toggleable sliding sidebar (built with only CSS) via **☰** link in top corner
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/lanyon#themes), available via `<body>` classes
+<ul>
+  <li>Toggleable sliding sidebar (built with only CSS) via <strong>☰</strong> link in top corner</li>
+  <li>Sidebar includes support for textual modules and a dynamically generated navigation with active link support</li>
+  <li>Two orientations for content and sidebar, default (left sidebar) and <a href="https://github.com/poole/lanyon#reverse-layout">reverse</a> (right sidebar), available via <code>&lt;body&gt;</code> classes</li>
+  <li><a href="https://github.com/poole/lanyon#themes">Eight optional color schemes</a>, available via <code>&lt;body&gt;</code> classes</li>
+</ul>
 
-[Head to the readme](https://github.com/poole/lanyon#readme) to learn more.
+<p><a href="https://github.com/poole/lanyon#readme">Head to the readme</a> to learn more.</p>
 
-### Browser support
+<h3 id="browser-support">Browser support</h3>
 
-Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+<p>Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.</p>
 
-### Download
+<h3 id="download">Download</h3>
 
-Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
+<p>Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.</p>
 
-Thanks!
+<p>Thanks!</p>
 
   </div>
   
@@ -166,8 +181,45 @@ Thanks!
 </div>
 
 
+
+  <!-- twitter share -->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="raja_vm">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <!-- gogole plus share -->
+		<script src="https://apis.google.com/js/platform.js" async defer ></script>
+			<div class="g-plus" data-action="share" data-annotation="none" ></div>
+ <!-- fb share -->
+		<div class="fb-share-button" data-href="https://rajavm.github.io//page2/" data-layout="button_count" style="position: relative; top: -8px; "></div>
+
+
+
       </div>
     </div>
+
+    <!-- discus thread -->
+	<div id="disqus_thread"></div>
+	<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+
+	s.src = '//rajavm.disqus.com/embed.js';
+
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
