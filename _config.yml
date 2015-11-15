@@ -7,27 +7,19 @@ permalink:           pretty
 # Setup
 title:               Raja
 tagline:             Version 0.1
+#description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 https://rajavm.github.io/
+baseurl:             ''
 paginate:            1
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+gems: [jekyll-paginate]
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              RajendraKumar VM
+  url:               https://twitter.com/raja_vm
+  email:             perfectcyberwarrior@gmail.com
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/rajavm/rajavm.github.io
+version:             1.0.0
 
-# PAGINATION
-gems: [jekyll-paginate]
+
