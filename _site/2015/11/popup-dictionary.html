@@ -11,7 +11,7 @@
 
   <title>
     
-      404: Page not found &middot; Raja
+      Popup Dictionary &middot; Raja
     
   </title>
 
@@ -112,9 +112,72 @@
 
       <div class="container content">
 
-        <div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p>
+        <div class="post">
+  <h1 class="post-title">Popup Dictionary</h1>
+
+  <span class="post-date">16 Nov 2015</span>
+  <p>Simple hack for  cross application dictionary with popup supported by keybooard shortcut combinations.</p>
+
+<h3 id="requirements">Requirements</h3>
+<p>*GNU/Linux<br />
+*<a href="http://bit.ly/1HDEkNk">Goldendict</a><br />
+*WordNet<br />
+*Text to speech : Espeak<br />
+*Clipboard manager : parcellite</p>
+
+<h3 id="installation">Installation</h3>
+<p><code>sudo apt-get install goldendict espeak parcellite</code></p>
+
+<h3 id="post-installation">Post installation:</h3>
+
+<p><a href="http://pastebin.com/B9ueCPAg"><font color="blue"><i>Adding pronunciation  </i> </font> </a><br />
+<a href="http://pastebin.com/K1v7ndBe"><font color="blue"><i>Adding dictionary files   </i> </font> </a></p>
+
+<h3 id="one-time-procedure">One time procedure:</h3>
+<p>0.Right click Parcellite daemon -&gt; Preferences<br />
+  See the picture<br />
+<img src="http://s3.postimg.org/o1api0rw3/parcellite.png" alt="Parcellite" /><br />
+1.Create a bash file(extension: .sh) and paste the following<br />
+<code>
+              goldendict `parcellite --primary`  
+</code><br />
+2.Add a executable permission to the bash file created<br />
+              <code>chmod u+x filename.sh</code><br />
+3.Open Systemsettings-&gt; keyboard-&gt;Shortcuts-&gt;Custom shortcut<br />
+4.Select your bash script as the command and add a custom keyboard shortcut</p>
+
+<h3 id="working">Working:</h3>
+<p>Now just double click a word in browser,text editor etc and press the custom shortcut combination<br />
+<img src="http://s2.postimg.org/kgiodi7xl/del.png" alt="Popup with pronunciation" /><br />
+Love Gnu/linux</p>
+
+<h4 id="references">References:</h4>
+<p>https://askubuntu.com/questions/458584/how-can-i-add-text-to-speech-to-goldendict<br />
+https://askubuntu.com/questions/183570/where-can-i-find-dictionaries-for-opendict-and-goldendict</p>
+
+
+
+
+</div>
+
+
+
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/11/zeroth-post">
+            Zeroth post
+            <small>14 Nov 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
 </div>
 
 
@@ -125,7 +188,7 @@
 		<script src="https://apis.google.com/js/platform.js" async defer ></script>
 			<div class="g-plus" data-action="share" data-annotation="none" ></div>
  <!-- fb share -->
-		<div class="fb-share-button" data-href="https://rajavm.github.io//404.html" data-layout="button_count" style="position: relative; top: -8px; "></div>
+		<div class="fb-share-button" data-href="https://rajavm.github.io//2015/11/popup-dictionary" data-layout="button_count" style="position: relative; top: -8px; "></div>
 	<!-- discus thread -->
 		<div id="disqus_thread"></div>
 		<script>
