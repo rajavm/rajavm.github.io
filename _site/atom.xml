@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Raja</title>
- <link href="https://rajavm.github.io//atom.xml" rel="self"/>
- <link href="https://rajavm.github.io//"/>
- <updated>2015-11-16T23:51:32+05:30</updated>
- <id>https://rajavm.github.io/</id>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2015-11-16T23:53:33+05:30</updated>
+ <id></id>
  <author>
    <name>RajendraKumar VM</name>
    <email>perfectcyberwarrior@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Popup Dictionary</title>
-   <link href="https://rajavm.github.io//posts/popup-dictionary"/>
+   <link href="/posts/popup-dictionary"/>
    <updated>2015-11-16T00:00:00+05:30</updated>
-   <id>https://rajavm.github.io//posts/popup-dictionary</id>
+   <id>/posts/popup-dictionary</id>
    <content type="html">&lt;p&gt;Simple hack for  cross application dictionary with popup supported by keybooard shortcut combinations.&lt;/p&gt;
 
 &lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
@@ -61,9 +61,9 @@ https://askubuntu.com/questions/183570/where-can-i-find-dictionaries-for-opendic
  
  <entry>
    <title>Zeroth post</title>
-   <link href="https://rajavm.github.io//posts/zeroth-post"/>
+   <link href="/posts/zeroth-post"/>
    <updated>2015-11-14T00:00:00+05:30</updated>
-   <id>https://rajavm.github.io//posts/zeroth-post</id>
+   <id>/posts/zeroth-post</id>
    <content type="html">&lt;h2 id=&quot;section&quot;&gt;அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு&lt;/h2&gt;
 &lt;p&gt;Hello World ;)&lt;/p&gt;
 
@@ -72,9 +72,9 @@ https://askubuntu.com/questions/183570/where-can-i-find-dictionaries-for-opendic
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="https://rajavm.github.io//posts/whats-jekyll"/>
+   <link href="/posts/whats-jekyll"/>
    <updated>2013-12-31T00:00:00+05:30</updated>
-   <id>https://rajavm.github.io//posts/whats-jekyll</id>
+   <id>/posts/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
