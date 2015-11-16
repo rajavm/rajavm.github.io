@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Popup Dictionary
+permalink: /year/month/day/title.html
 ---
 
 Simple hack for  cross application dictionary with popup supported by keybooard shortcut combinations.  

@@ -11,7 +11,7 @@
 
   <title>
     
-      Raja &middot; Version 0.1
+      Popup Dictionary &middot; Raja
     
   </title>
 
@@ -112,42 +112,73 @@
 
       <div class="container content">
 
-        <div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="//year/month/day/title.html">
-        What's Jekyll?
-      </a>
-    </h1>
+        <div class="post">
+  <h1 class="post-title">Popup Dictionary</h1>
 
-    <span class="post-date">31 Dec 2013</span>
+  <span class="post-date">16 Nov 2015</span>
+  <p>Simple hack for  cross application dictionary with popup supported by keybooard shortcut combinations.</p>
 
-    <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
+<h3 id="requirements">Requirements</h3>
+<p>*GNU/Linux<br />
+*<a href="http://bit.ly/1HDEkNk">Goldendict</a><br />
+*WordNet<br />
+*Text to speech : Espeak<br />
+*Clipboard manager : parcellite</p>
 
-<blockquote>
-  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
-</blockquote>
+<h3 id="installation">Installation</h3>
+<p><code>sudo apt-get install goldendict espeak parcellite</code></p>
 
-<p>It’s an immensely useful tool and one we encourage you to use here with Lanyon.</p>
+<h3 id="post-installation">Post installation:</h3>
 
-<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
+<p><a href="http://pastebin.com/B9ueCPAg"><font color="blue"><i>Adding pronunciation  </i> </font> </a><br />
+<a href="http://pastebin.com/K1v7ndBe"><font color="blue"><i>Adding dictionary files   </i> </font> </a></p>
 
-  </div>
-  
+<h3 id="one-time-procedure">One time procedure:</h3>
+<p>0.Right click Parcellite daemon -&gt; Preferences<br />
+  See the picture<br />
+<img src="http://s3.postimg.org/o1api0rw3/parcellite.png" alt="Parcellite" /><br />
+1.Create a bash file(extension: .sh) and paste the following<br />
+<code>
+              goldendict `parcellite --primary`  
+</code><br />
+2.Add a executable permission to the bash file created<br />
+              <code>chmod u+x filename.sh</code><br />
+3.Open Systemsettings-&gt; keyboard-&gt;Shortcuts-&gt;Custom shortcut<br />
+4.Select your bash script as the command and add a custom keyboard shortcut</p>
+
+<h3 id="working">Working:</h3>
+<p>Now just double click a word in browser,text editor etc and press the custom shortcut combination<br />
+<img src="http://s2.postimg.org/kgiodi7xl/del.png" alt="Popup with pronunciation" /><br />
+Love Gnu/linux</p>
+
+<h4 id="references">References:</h4>
+<p>https://askubuntu.com/questions/458584/how-can-i-add-text-to-speech-to-goldendict<br />
+https://askubuntu.com/questions/183570/where-can-i-find-dictionaries-for-opendict-and-goldendict</p>
+
+
+
+
 </div>
 
-<div class="pagination">
-  
-    <span class="pagination-item older">Older</span>
-  
-  
-    
-      <a class="pagination-item newer" href="/page2">Newer</a>
-    
-  
-</div>
 
+
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/year/month/day/title.html">
+            Zeroth post
+            <small>14 Nov 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
 
 
   <!-- twitter share -->
@@ -157,7 +188,7 @@
 		<script src="https://apis.google.com/js/platform.js" async defer ></script>
 			<div class="g-plus" data-action="share" data-annotation="none" ></div>
  <!-- fb share -->
-		<div class="fb-share-button" data-href="https://rajavm.github.io//page3/" data-layout="button_count" style="position: relative; top: -8px; "></div>
+		<div class="fb-share-button" data-href="https://rajavm.github.io//year/month/day/title.html" data-layout="button_count" style="position: relative; top: -8px; "></div>
 	<!-- discus thread -->
 		<div id="disqus_thread"></div>
 		<script>
