@@ -4,13 +4,60 @@
  <title>Raja</title>
  <link href="https://rajavm.github.io//atom.xml" rel="self"/>
  <link href="https://rajavm.github.io//"/>
- <updated>2015-11-16T18:26:27+05:30</updated>
+ <updated>2015-11-16T20:52:48+05:30</updated>
  <id>https://rajavm.github.io/</id>
  <author>
    <name>RajendraKumar VM</name>
    <email>perfectcyberwarrior@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Popup Dictionary</title>
+   <link href="https://rajavm.github.io//2015/11/16/popup-dictionary/"/>
+   <updated>2015-11-16T00:00:00+05:30</updated>
+   <id>https://rajavm.github.io//2015/11/16/popup-dictionary</id>
+   <content type="html">&lt;p&gt;Simple hack for  cross application dictionary with popup supported by keybooard shortcut combinations.&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;*GNU/Linux&lt;br /&gt;
+*&lt;a href=&quot;http://bit.ly/1HDEkNk&quot;&gt;Goldendict&lt;/a&gt;&lt;br /&gt;
+*WordNet&lt;br /&gt;
+*Text to speech : Espeak&lt;br /&gt;
+*Clipboard manager : parcellite&lt;/p&gt;
+
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install goldendict espeak parcellite&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;post-installation&quot;&gt;Post installation:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pastebin.com/B9ueCPAg&quot;&gt;&lt;font color=&quot;blue&quot;&gt;&lt;i&gt;Adding pronunciation  &lt;/i&gt; &lt;/font&gt; &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://pastebin.com/K1v7ndBe&quot;&gt;&lt;font color=&quot;blue&quot;&gt;&lt;i&gt;Adding dictionary files   &lt;/i&gt; &lt;/font&gt; &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;one-time-procedure&quot;&gt;One time procedure:&lt;/h3&gt;
+&lt;p&gt;0.Right click Parcellite daemon -&amp;gt; Preferences&lt;br /&gt;
+  See the picture&lt;br /&gt;
+&lt;img src=&quot;http://s3.postimg.org/o1api0rw3/parcellite.png&quot; alt=&quot;Parcellite&quot; /&gt;&lt;br /&gt;
+1.Create a bash file(extension: .sh) and paste the following&lt;br /&gt;
+&lt;code&gt;
+              goldendict `parcellite --primary`  
+&lt;/code&gt;&lt;br /&gt;
+2.Add a executable permission to the bash file created&lt;br /&gt;
+              &lt;code&gt;chmod u+x filename.sh&lt;/code&gt;&lt;br /&gt;
+3.Open Systemsettings-&amp;gt; keyboard-&amp;gt;Shortcuts-&amp;gt;Custom shortcut&lt;br /&gt;
+4.Select your bash script as the command and add a custom keyboard shortcut&lt;/p&gt;
+
+&lt;h3 id=&quot;working&quot;&gt;Working:&lt;/h3&gt;
+&lt;p&gt;Now just double click a word in browser,text editor etc and press the custom shortcut combination&lt;br /&gt;
+&lt;img src=&quot;http://s2.postimg.org/kgiodi7xl/del.png&quot; alt=&quot;Popup with pronunciation&quot; /&gt;&lt;br /&gt;
+Love Gnu/linux&lt;/p&gt;
+
+&lt;h4 id=&quot;references&quot;&gt;References:&lt;/h4&gt;
+&lt;p&gt;https://askubuntu.com/questions/458584/how-can-i-add-text-to-speech-to-goldendict&lt;br /&gt;
+https://askubuntu.com/questions/183570/where-can-i-find-dictionaries-for-opendict-and-goldendict&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Zeroth post</title>
