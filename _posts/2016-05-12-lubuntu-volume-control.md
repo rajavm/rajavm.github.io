@@ -12,10 +12,10 @@ In Terminal
 
 `leafpad ~/.config/openbox/lubuntu-rc.xml`
 
-Search for <!-- Keybinding for Volume management -->
+Search for `<!-- Keybinding for Volume management -->`
 
 Copy and overwrite the following 
-
+```
 <!-- Keybinding for Volume management -->
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
@@ -32,7 +32,7 @@ Copy and overwrite the following
         <command>pactl set-sink-mute @DEFAULT_SINK@ toggle</command>
       </action>
     </keybind>
-
+```
 Save and close the file
 
 In terminal type 
