@@ -4,7 +4,7 @@ title: Volume manangement in Lubuntu
 
 ---
 
-###Lubuntu keyboard binding for volume control
+Lubuntu keyboard binding for volume control
 ------------------
 
 In Terminal
@@ -16,6 +16,7 @@ In Terminal
 Search for `<!-- Keybinding for Volume management -->`
 
 Copy and overwrite the following 
+
 ```
 <!-- Keybinding for Volume management -->
     <keybind key="XF86AudioRaiseVolume">
@@ -34,6 +35,7 @@ Copy and overwrite the following
       </action>
     </keybind>
 ```
+
 Save and close the file
 
 In terminal type 
@@ -41,7 +43,7 @@ In terminal type
 `openbox --reconfigure`
 
 
-###References:
+References:
 ------------------
 
 https://wiki.archlinux.org/index.php/Xbindkeys
