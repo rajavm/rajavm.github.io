@@ -5,6 +5,7 @@ title: Volume manangement in Lubuntu
 ---
 
 ###Lubuntu keyboard binding for volume control
+------------------
 
 In Terminal
 
@@ -41,6 +42,7 @@ In terminal type
 
 
 ###References:
+------------------
 
 https://wiki.archlinux.org/index.php/Xbindkeys
 
