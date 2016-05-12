@@ -43,6 +43,7 @@ In terminal type
 ###References:
 
 https://wiki.archlinux.org/index.php/Xbindkeys
+
 http://ubuntuforums.org/showthread.php?t=1422861
 
 
