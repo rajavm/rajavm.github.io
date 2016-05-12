@@ -40,7 +40,7 @@ In terminal type
 `openbox --reconfigure`
 
 
-####References:
+###References:
 
 https://wiki.archlinux.org/index.php/Xbindkeys
 http://ubuntuforums.org/showthread.php?t=1422861
